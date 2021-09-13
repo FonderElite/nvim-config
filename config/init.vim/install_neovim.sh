@@ -15,7 +15,7 @@ sudo update-alternatives --config vim
 sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
 sudo update-alternatives --config editor
 echo "Cloning config file init.vim"
-git clone https://github.com/CLevasseur/init.vim.git ~/.config/nvim
+git clone https://github.com/FonderElite/nvim-config/init.vim ~/.config/nvim
 pip3 install neovim
 echo "Installing vim plugin manager"
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
