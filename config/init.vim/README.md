@@ -5,9 +5,9 @@ My Neovim configuration file
 1. How to install Neovim:
 https://github.com/neovim/neovim/wiki/Installing-Neovim  
 
-2. Get this configuration file by cloning the repo in `~/.config/nvim`:
+2. Get this configuration folder by cloning the repo in `~/.config/nvim`:
   ```
-  git clone https://github.com/FonderElite/auto-config ~/.config/nvim
+  git clone https://github.com/FonderElite/nvim-config ~/.config/nvim
   ```
 
 3. Add support for plugins using python:
