@@ -19,15 +19,17 @@ set background=dark
 " number of colors vim can use
 "set t_Co=256
 " number of colors onedark colorscheme can use
-let g:slate_termcolors=16
-colorscheme slate
+let g:dark_termcolors=16
 
 "enable airline"
 let g:airline#extensions#tabline#enabled = 1
-
-let g:airline_theme='slate'
+if system('date +%H') > 18
+  let g:airline_theme = 'wombat'
+else
+  let g:airline_theme = 'dark'
+endif
 let g:airline_powerline_fonts = 1
-" use onedark as colorscheme
+" Set AirLineTheme depending on the time of the day
 
 " display line number relatively to the current one
 set rnu
@@ -203,13 +205,13 @@ autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()
 " close all open buffers on entering a window if the only
 " buffer that's left is the NERDTree buffer
 function! s:CloseIfOnlyNerdTreeLeft()
-	if exists("t:NERDTreeBufName")
-		if bufwinnr(t:NERDTreeBufName) != -1
-			if winnr("$") == 1
-				q
-			endif
-		endif
-	endif
+        if exists("t:NERDTreeBufName")
+                if bufwinnr(t:NERDTreeBufName) != -1
+                        if winnr("$") == 1
+                                q
+                        endif
+                endif
+        endif
 endfunction
 
 " toggle file explorer visibility
@@ -269,3 +271,5 @@ nnoremap <A-x> <C-x>
 "Open Nerd tree Automatically
 autocmd VimEnter * NERDTree
 
+"key bindings"
+source /home/user/.config/nvim/keys.vim
