@@ -60,5 +60,11 @@ Plug 'kshenoy/vim-signature'
 Plug 'tpope/vim-obsession', { 'do': 'vim -u NONE -c \"helptags vim-obsession/doc\" -c q' }
 
 "Plug 'git@github.com:Valloric/YouCompleteMe.git'
-
 ```
+
+## Installing the Plugin Manager
+> To make it easier to install plugins, use the Vim-plug plugin manager. This plugin manager uses git to manage most plugins:
+```
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
