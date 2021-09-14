@@ -272,4 +272,4 @@ nnoremap <A-x> <C-x>
 autocmd VimEnter * NERDTree
 
 "key bindings"
-source /home/user/.config/nvim/keys.vim
+source keys.vim
