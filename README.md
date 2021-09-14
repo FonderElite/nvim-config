@@ -14,12 +14,12 @@
 ```
 
 # Plugins Installation
-```
+```vim
 :PlugInstall - Install Plugins
 :PlugUpdate - Update Plugins
 ```
 
-## Plugins 
+## 🎀 Plugins 
 ```vim
 """""""""""""""""""""""""""
 " Plugins
