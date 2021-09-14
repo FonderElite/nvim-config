@@ -3,7 +3,7 @@
 
 <img src="nvimstyle.png">
 
-## Installation
+## ⬇️ Installation
 ```bash
 ┌─[root@parrot]─[/tmp]
 └──╼ # git clone https://github.com/FonderElite/nvim-config
@@ -11,6 +11,12 @@
 *Replace the ~/.config/nvim/init.vim with customized init.vim
 ┌─[root@parrot]─[/tmp]
 └──╼ #cat init.vim | tee $HOME/.config/nvim/init.vim
+```
+
+# Plugins Installation
+```
+:PlugInstall - Install Plugins
+:PlugUpdate - Update Plugins
 ```
 
 ## Plugins 
