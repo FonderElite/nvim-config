@@ -2,6 +2,7 @@
 > Config Files for NVIM
 
 <img src="nvimstyle.png">
+
 ## Installation
 ```bash
 ┌─[root@parrot]─[/tmp]
