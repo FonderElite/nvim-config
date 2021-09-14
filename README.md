@@ -16,8 +16,6 @@
 """""""""""""""""""""""""""
 " Plugins
 """""""""""""""""""""""""""
-call plug#begin()
-
 " Deoplete for autocompletion
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 " Python completion integrated in deoplete
